@@ -1,8 +1,12 @@
 @import url(assets.css);
 @import url(categories.css);
+@import url(header.css);
 @import url(section.css);
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;700;800&display=swap');
-body{
+
+body, body *{
     font-family: var(--catamaran);
+    margin: 0;
+    padding: 0;
 }

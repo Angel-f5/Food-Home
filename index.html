@@ -10,23 +10,46 @@
 <body>
     <!--header(logo, menu hamburguesa, titulo y subtitulo. slide)-->
     <header>
-        <img src="Logo/logo_large.png" alt="error">
+        <img class="logo-img" src="Logo/logo_large.png" alt="error">
         <h1>Food For Home</h1>
         <h2>subtitulo comida</h2>
         <nav>
-            <div class="slide">
-                <div><a href="#"><img src="xxxx"> Desayunos </a></div>
-                <div><a href="#"><img src="/Logos slide/pizza.svg"> Comida gocha> </a></div>
-                <div><a href="#"><img src="/Logos slide/comida-sana.svg"> Cena </a></div>
-                <div><a href="#"><img src="/Logos slide/magdalena.svg"> postres </a></div>
-                <div><a href="#"><img src="/Logos slide/copa-de-vino.svg"> Drinks </a></div>
+            <div class="menu-slide">
+                <div class="categoria"><a href="#"><img src="Logos slide/desayuno.svg"> Desayunos </a></div>
+                <div class="categoria"><a href="#"><img src="Logos slide/pizza.svg"> Comida gocha </a></div>
+                <div class="categoria"><a href="#"><img src="Logos slide/comida-sana.svg"> Cena </a></div>
+                <div class="categoria"><a href="#"><img src="Logos slide/magdalena.svg"> postres </a></div>
+                <div class="categoria"><a href="#"><img src="Logos slide/copa-de-vino.svg"> Drinks </a></div>
+                <div class="categoria"><a href="#"><img src="Logos slide/cesta-de-regalo.svg"> Todos </a></div>
             </div>
         </nav>
     </header>
     <!--main (imagen, descripcion y contador.)-->
-    <main></main>
+    <main>
+        <div class="plato">
+            <div class="plato-imagen">
+                <img src="img/comidas/arrozBasmati.jpg" alt="arroz">
+            </div>
+            <div class="plato-info">
+                <h3>52,00€</h3>
+                <h2>Arroz Basmati</h2>
+                <p>arroz basmati de mi abuela</p>
+            </div>
+            <div class="plato-cantidad">
+                <button id="restar">-</button>
+                <p id="contador">0</p>
+                <button id="sumar">+</button>
+            </div>
+        </div>
+    </main>
     <!--footer (boton cesta e iconos) -->
-    <footer></footer>
+    <footer>
+        <div><a href="#"><img src="" alt="casa"></a></div>
+        <div><a href="#"><img src="" alt="buzón"></a></div>
+        <div><a href="#"><img src="" alt="cesta"></a></div>
+        <div><a href="#"><img src="" alt="favoritos"></a></div>
+        <div><a href="#"><img src="" alt="usuario"></a></div>
+    </footer>
     <script src="javascrip.js"></script>
 </body>
 </html>
