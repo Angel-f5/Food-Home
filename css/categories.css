@@ -14,9 +14,9 @@ nav .menu-slide {
     background-color: var(--blanco);
     border-radius: 10px;
     margin: 0 1rem;
-    -webkit-box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
-    -moz-box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
-    box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 1px 4px 15px 10px rgb(0 0 0 / 8%);
+    -moz-box-shadow: 1px 4px 15px 10px rgb(0 0 0 / 8%);
+    box-shadow: 1px 4px 15px 10px rgb(0 0 0 / 8%);
 }
 
 .categoria a {
