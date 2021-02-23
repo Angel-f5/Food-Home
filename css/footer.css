@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer i {
+    font-family: var(--iconos);
+}
