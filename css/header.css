@@ -1,7 +1,22 @@
+header{
+    margin-left: auto;
+   margin-right: auto;
+   diplay flex;
+   flex-direction: row;
+ }
 header .logo-img {
-    width: 8rem;
+   height: auto;
+   width: 8rem;
+   margin: 0;
+   padding: 0;
 }
 
 header h1 {
-    
+   padding: 0%;
+   text-align: center;
+}
+header h2 {
+   padding: 0;
+   text-align: center;
+   color : var(--gris-claro);
 }
