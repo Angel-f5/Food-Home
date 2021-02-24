@@ -5,7 +5,7 @@ nav .menu-slide {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    padding: 10px 0;
+    padding: 1.5rem 0;
     position: sticky;
     top: 0%;
 }
@@ -17,7 +17,7 @@ nav .menu-slide::-webkit-scrollbar {
 .menu-slide .categoria {
     background-color: var(--blanco);
     border-radius: 10px;
-    margin: 0 1rem;
+    margin: 0 .5rem;
     -webkit-box-shadow: 1px 4px 15px 10px rgb(0 0 0 / 8%);
     -moz-box-shadow: 1px 4px 15px 10px rgb(0 0 0 / 8%);
     box-shadow: 1px 4px 15px 10px rgb(0 0 0 / 8%);
@@ -27,9 +27,13 @@ nav .menu-slide::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem .7rem 1.5rem;
+    text-decoration: none;
+    color: var(--negro);
+    font-weight: 800;
 }
 
 .categoria img {
     height: 90px;
+    margin-bottom: 1rem;
 }
