@@ -34,4 +34,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.styleInfo img {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.styleInfo {
+    display: flex;
+}
+
+.infoplato {
+    display: block;
+    justify-content: space-between;
+    width: 50%;
+}
+
 
