@@ -10,6 +10,10 @@ nav .menu-slide {
     top: 0%;
 }
 
+nav .menu-slide::-webkit-scrollbar {
+    display: none;
+}
+
 .menu-slide .categoria {
     background-color: var(--blanco);
     border-radius: 10px;

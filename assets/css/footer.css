@@ -27,6 +27,7 @@ footer div:nth-child(3) i {
     background-color: var(--naranja);
     padding: 1rem;
     border-radius: 50%;
+    transform: rotate(-135deg);
     -webkit-box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
     -moz-box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
     box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
