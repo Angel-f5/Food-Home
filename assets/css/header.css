@@ -5,17 +5,15 @@ header{
 }
 header .logo-img {
   height: auto;
-  width: 8rem;
-  margin: 0;
-  padding: 0;
+  width: 8rem;  
 }
 
 header h1 {
   padding: 0%;
-  text-align: center;
+  text-align: left;
 }
-header h2 {
+header h3 {
   padding: 0;
-  text-align: center;
+  text-align: left;
   color : var(--gris-oscuro);
 }
