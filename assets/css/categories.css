@@ -35,7 +35,8 @@ nav .menu-slide::-webkit-scrollbar {
 
 .categoria img {
     height: 40px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.35rem;
+    margin-top: 0.50rem;
     max-width: 7rem;
     min-width: 5rem;
     max-height: 3rem;
