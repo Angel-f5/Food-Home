@@ -21,8 +21,10 @@
 .contador p{
     font-size: 1rem;
     font-weight: 900;
-    font-size: 1rem;
-    font-weight: 900;
+    max-width: 2rem;
+    min-width: 2rem;
+    background-color: var(--gris-claro);
+    text-align: center;
 }
 
 .contador {
