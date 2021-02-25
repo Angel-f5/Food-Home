@@ -1,12 +1,13 @@
 /**Diseño Boton contador**/
 
 .masmenos {
-    width: 2rem;
-    height: 2rem; 
+    width: 15vw ;
+    height:2rem; 
     border-radius: 30%;
     border-color: var(--gris-claro);
     font-size: 1rem;
     font-weight: 900;
+    padding: 0px 8px 8px 8px;
 }
 
 .contador {
@@ -42,12 +43,14 @@
 
 .styleInfo {
     display: flex;
+    justify-content: space-around;   
 }
 
 .infoplato {
     display: block;
     justify-content: space-between;
     width: 50%;
+    margin-left: 20%;
 }
 
 

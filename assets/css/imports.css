@@ -7,6 +7,6 @@
 
 body, body *{
     font-family: var(--catamaran);
-    margin: 0;
+    margin: 1% 1.2% 0% 1.2%;
     padding: 0;
 } 
