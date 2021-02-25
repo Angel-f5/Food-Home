@@ -1,38 +1,50 @@
-footer {
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     -webkit-box-shadow: 4px -6px 5px -4px rgba(0,0,0,0.25);
     -moz-box-shadow: 4px -6px 5px -4px rgba(0,0,0,0.25);
     box-shadow: 4px -6px 5px -4px rgba(0,0,0,0.25);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: var(--blanco);
 }
 
-footer i {
+.footer i {
     font-family: var(--iconos);
     font-size: 1.5rem;
     color: var(--gris-oscuro);
 }
 
-footer i:active, footer i:hover {
+.footer i:active, .footer i:hover {
     color: var(--naranja);
 }
 
-footer div:nth-child(3) {
+.footer div:nth-child(3) {
     position: relative;
     top: -20px;
 }
 
-footer div:nth-child(3) i {
-    color: var(--blanco);
+.footer div:nth-child(3) a {
     background-color: var(--naranja);
-    padding: 1rem;
+    padding: 1rem 1rem 1rem .85rem;
     border-radius: 50%;
-    transform: rotate(-135deg);
+    text-decoration: none;
     -webkit-box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
     -moz-box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
     box-shadow: 4px 10px 5px -4px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer div:nth-child(3) i:active, footer div:nth-child(3) i:hover {
+.footer div:nth-child(3) i {
+    color: var(--blanco);
+    transform: rotate(-135deg);
+}
+
+.footer div:nth-child(3) i:active, footer div:nth-child(3) i:hover {
     background-color: var(--gris-oscuro);
 }

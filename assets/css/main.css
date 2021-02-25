@@ -1,4 +1,9 @@
 /**Diseño Boton contador**/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 .masmenos {
     width: 15vw ;
