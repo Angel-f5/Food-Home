@@ -6,26 +6,37 @@
 
 
 .masmenos {
-    width: 15vw ;
+    max-width: 2rem;
+    min-width: 2rem;
     height:2rem; 
-    border-radius: 30%;
+    border-radius: 15%;
     border-color: var(--gris-claro);
+    background-color: white;
     font-size: 1rem;
     font-weight: 900;
     padding: 0px 8px 8px 8px;
+    box-shadow: 0px;
+}
+
+.contador p{
+    font-size: 1rem;
+    font-weight: 900;
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 .contador {
     display: flex;
-    justify-content: space-around;
-    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
     font-weight: bolder;
     font-size: 1.2rem;
+    flex-direction: row;
 }
 
 .descripcion {
     color: var(--gris-oscuro);
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .nombreplato {
@@ -34,7 +45,7 @@
 }
 
 .precio {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--naranja);
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,6 +55,7 @@
     width: 125px;
     height: 125px;
     border-radius: 10px;
+    object-fit: fill;
 }
 
 .styleInfo {
@@ -51,11 +63,12 @@
     justify-content: space-around;   
 }
 
-.infoplato {
-    display: block;
+.infoplato {    
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     margin-left: 20%;
+    letter-spacing: -1px; 
+    line-height: 20px; 
 }
 
 
