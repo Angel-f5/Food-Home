@@ -5,9 +5,7 @@ let resta = document.querySelector('.menos');
 let suma = document.querySelector('.mas');
 
 resta.addEventListener('click', () =>{
-    if(numerobase == 0){
-        null;
-    }else{
+    if(numerobase > 0){
         let padre = resta.parentElement;
         numerobase -= 1;
         numero.innerHTML = numerobase;
