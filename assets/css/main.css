@@ -42,7 +42,7 @@
 }
 
 .nombreplato {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--negro)
 }
 
@@ -74,3 +74,12 @@
 }
 
 
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: 1.5rem;
+    color: var(--negro)
+}

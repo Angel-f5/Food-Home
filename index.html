@@ -9,6 +9,7 @@
     <title>Food for Home</title>
 </head>
 <body>
+  <div id="1erMain">
     <!--header(logo, menu hamburguesa, titulo y subtitulo. slide)-->
     <header>
         <img class="logo-img" src="assets\Logo\logo_large.png" alt="error">
@@ -177,8 +178,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-            
+        </div>            
         <div class="platosbebidas"></div>
         <div class="platosDesayunos"></div>
         <div class="platosDesayunos"></div>
@@ -194,10 +194,23 @@
     <div class="footer">
         <div><a href="#"><i class="fal fa-home"></i></a></div>
         <div><a href="#"><i class="fal fa-envelope"></i></a></div>
-        <div><a href="#"><i class="fal fa-pizza-slice"></i></a></div>
+        <div onclick="ocultar()"><a href="#"><i class="fal fa-pizza-slice"></i></a></div>
         <div><a href="#"><i class="far fa-heart"></i></a></div>
         <div><a href="#"><i class="far fa-user"></i></a></div>
     </div>
+  </div>
+    <header class="header2">
+        <div onclick="mostrar()"><a href="#"><i class="fas fa-chevron-left"></i></a></div>
+        <div><a href="#"><i class="far fa-trash-alt"></i></a></div>
+    </header>
+    <main class="main2">
+        <h3>My Cart</h3>
+        
+        
+
+
+    </main>
+
     <script src="javascrip.js"></script>
     <script src="https://kit.fontawesome.com/97bc746b49.js" crossorigin="anonymous"></script>
 </body>
