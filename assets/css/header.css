@@ -5,15 +5,26 @@ header{
 }
 header .logo-img {
   height: auto;
-  width: 8rem;  
+  width: 8rem; 
+  margin-left: 2%; 
 }
 
 header h1 {
   padding: 0%;
   text-align: left;
+  margin-left: 2%; 
 }
 header h3 {
   padding: 0;
   text-align: left;
   color : var(--gris-oscuro);
+  margin-left: 2%; 
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
 }
