@@ -9,7 +9,7 @@
     <title>Food for Home</title>
 </head>
 <body>
-  <div id="1erMain">
+  <div id="pagina1" style="display: inline;">
     <!--header(logo, menu hamburguesa, titulo y subtitulo. slide)-->
     <header>
         <img class="logo-img" src="assets\Logo\logo_large.png" alt="error">
@@ -194,33 +194,40 @@
     <div class="footer">
         <div><a href="#"><i class="fal fa-home"></i></a></div>
         <div><a href="#"><i class="fal fa-envelope"></i></a></div>
-        <div onclick="ocultar()"><a href="#"><i class="fal fa-pizza-slice"></i></a></div>
+        <div id="pizza" ><a href="#"><i class="fal fa-pizza-slice"></i></a></div>
         <div><a href="#"><i class="far fa-heart"></i></a></div>
         <div><a href="#"><i class="far fa-user"></i></a></div>
     </div>
   </div>
+  <div id="pagina2" style="display: none;">
     <header class="header2">
-        <div onclick="mostrar()"><a href="#"><i class="fas fa-chevron-left"></i></a></div>
+        <div id="volver"><a href="#"><i class="fas fa-chevron-left"></i></a></div>
         <div><a href="#"><i class="far fa-trash-alt"></i></a></div>
     </header>
     <main class="main2">
-        <h3>My Cart</h3>    
-        
-
+        <h3>My Cart</h3>
     </main>
     <footer>
-        
-        <p>Subtotal</p>
-        VALOR
-        <p>Tax & fees</p>
-        VALOR
-        <p>Delivery</p>
-        VALOR
-        <p>TOTAL</p>
-
+        <div>
+            <p>Subtotal</p>
+            <p>0</p>
+        </div>
+        <div>
+            <p>Tax & fees</p>
+            <p>0</p>
+        </div>
+        <div>
+            <p>Delivery</p>
+            <p>0</p>
+        </div>
+        <div>
+            <p>TOTAL</p>
+            <p>0</p>
+        </div>
     </footer>
+  </div>
 
-    <script src="javascrip.js"></script>
+    <script src="js/paginas1y2.js"></script>
     <script src="js/contador.js"></script>
     <script src="https://kit.fontawesome.com/97bc746b49.js" crossorigin="anonymous"></script>
 </body>
