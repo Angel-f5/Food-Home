@@ -77,13 +77,13 @@
 }
 
 .infoplato {    
-    justify-content: ;
     width: 40%;
     line-height: 25px; 
     margin-top: 4%;
     margin-left: 7%;
 }
 
+/**PAGINA 2**/
 
 .main2 {
     display: flex;
@@ -92,9 +92,17 @@
     margin-right: 10%;
     margin-top: 10%;
     font-size: 1.5rem;
-    color: var(--negro)
+    color: var(--negro);
 }
 
-/**.pantalla2 {
-    display: none;
+.formatop2 {
+    background-color: var(--naranja);
+    color: var(--negro);
+    border-radius: 35px 35px 35px 35px ;
+    height: 250px;
+    display: ;
+}
+
+.listado {
+    display: ;
 }
