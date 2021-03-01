@@ -1,7 +1,11 @@
 /**Diseño Boton contador**/
 * {
-    margin-bottom: 20%;
+    margin-bottom: 0 ;
     box-sizing: border-box;
+}
+
+.platos {
+    margin-bottom: 20%;
 }
 
 
@@ -83,17 +87,60 @@
     margin-left: 7%;
 }
 
+/**PAGINA 2**/
 
 .main2 {
     display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    font-size: 1.5rem;
-    color: var(--negro)
+    height: 561px;
+  
+}
+.platosselec {
+    border-color: solid red;
+}
+.footercarrito {
+    position: sticky;
+    bottom: 0;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 12rem;
+    background-color:  var(--naranja);
+    border-radius: 33px 33px 0 0;
 }
 
-/**.pantalla2 {
-    display: none;
+.listado {
+    display: flex;
+}
+
+.totalText {
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color:white;
+    opacity: 60%;
+}
+
+.desgloce {
+    margin-top: 5%;
+    color:white;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.envioP {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 9px;
+    background-color: white;
+    border: none;
+    height: 35px;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.main2 h3 {
+    margin-left: 10%;
 }
