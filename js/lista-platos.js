@@ -20,6 +20,7 @@ let arrayPlatos = [
         categoria: 'bebidas'
     },
     {
+        id:3,
         img: "./assets/img/comidas/salmon.jpg",
         precio: "10,00€",
         nombre: "Salmón",
@@ -28,6 +29,7 @@ let arrayPlatos = [
         categoria: 'comidas'
     },
     {
+        id:4,
         img: "./assets/img/comidas/cerdoSalsa.jpg",
         precio: "8,00€",
         nombre: "Cerdo",
@@ -36,6 +38,7 @@ let arrayPlatos = [
         categoria: 'comidas'
     },
     {
+        id:5,
         img: "./assets/img/desayunos/huevos.jpg",
         precio: "5,00€",
         nombre: "Huevos",
@@ -44,6 +47,7 @@ let arrayPlatos = [
         categoria: 'desayunos'
     },
     {
+        id:6,
         img: "./assets/img/desayunos/pancakes.jpg",
         precio: "4,00€",
         nombre: "Pancakes",
@@ -52,6 +56,7 @@ let arrayPlatos = [
         categoria: 'desayunos'
     },
     {
+        id:7,
         img: "./assets/img/foodFast/pizza.jpg",
         precio: "10,00€",
         nombre: "Pizza",
@@ -60,6 +65,7 @@ let arrayPlatos = [
         categoria: 'fastfood'
     },
     {
+        id:8,
         img: "./assets/img/foodFast/hamburguesa.jpg",
         precio: "8,00€",
         nombre: "Hamburguesa",
@@ -68,6 +74,7 @@ let arrayPlatos = [
         categoria: 'fastfood'
     },
     {
+        id:9,
         img: "./assets/img/postres/brownie.jpg",
         precio: "4,00€",
         nombre: "Brownie",
@@ -76,6 +83,7 @@ let arrayPlatos = [
         categoria: 'postres'
     },
     {
+        id:10,
         img: "./assets/img/postres/tarta.jpg",
         precio: "4,00€",
         nombre: "Cheesecake",
