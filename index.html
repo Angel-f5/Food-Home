@@ -9,21 +9,13 @@
     <title>Food for Home</title>
 </head>
 <body>
-  <div id="pagina1" style="display: inline;">
+  <div id="pagPrincipal" style="display: inline;">
     <!--header(logo, menu hamburguesa, titulo y subtitulo. slide)-->
     <header>
-        <img class="logo-img" src="assets\Logo\logo_large.png" alt="error">
+        <img class="logo-img" src="assets\Logo\logo_large.png" alt="Food for home">
         <h1>Food For Home</h1>
         <h3>subtitulo comida</h3>
-        <nav>
-            <div class="menu-slide">
-                <div class="categoria" id="cat_desayunos"><a href="#"><img src="assets\Logos slide\desayuno.svg"> Desayunos </a></div>
-                <div class="categoria" id="cat_fastFoot"><a href="#"><img src="assets\Logos slide\pizza.svg"> Fast Food </a></div>
-                <div class="categoria" id="cat_comida"><a href="#"><img src="assets\Logos slide\comida-sana.svg"> Comida </a></div>
-                <div class="categoria" id="cat_postres"><a href="#"><img src="assets\Logos slide\magdalena.svg"> Postres </a></div>
-                <div class="categoria" id="cat_drinks"><a href="#"><img src="assets\Logos slide\copa-de-vino.svg"> Drinks </a></div>
-                <div class="categoria" id="cat_todos"><a href="#"><img src="assets\Logos slide\cesta-de-regalo.svg"> Todos </a></div>
-            </div>
+        <nav class="menu-slide">
         </nav>
     </header>
     <!--main (imagen, descripcion y contador.)-->
@@ -39,7 +31,7 @@
         <div><a href="#"><i class="far fa-user"></i></a></div>
     </div>
   </div>
-  <div id="pagina2" style="display: none;">
+  <div id="pagCarrito" style="display: none;">
     <header class="header2">
         <div id="volver"><a href="#"><i class="fas fa-chevron-left"></i></a></div>
         <div><a href="#"><i class="far fa-trash-alt"></i></a></div>
@@ -68,9 +60,11 @@
   </div>
 </div>
 
+    <script src="js/categorias.js"></script>
     <script src="js/paginas1y2.js"></script>
     <script src="js/lista-platos.js"></script>
     <script src="js/contador.js"></script>
+    <script src="js/filtro.js"></script>
     <script src="https://kit.fontawesome.com/97bc746b49.js" crossorigin="anonymous"></script>
 </body>
 </html>

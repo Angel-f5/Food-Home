@@ -1,15 +1,15 @@
-let pagina1 = document.getElementById('pagina1');
-let pagina2 = document.getElementById('pagina2');
+let pagPrincipal = document.getElementById('pagPrincipal');
+let pagCarrito = document.getElementById('pagCarrito');
 
 document.getElementById("pizza").addEventListener("click", siguiente);
 document.getElementById("volver").addEventListener("click", atras);
 
 function siguiente(){
-    pagina1.style.display = "none";
-    pagina2.style.display = "inline";
+    pagPrincipal.style.display = "none";
+    pagCarrito.style.display = "inline";
     }
 
 function atras(){
-    pagina1.style.display = "inline";
-    pagina2.style.display = "none";
+    pagPrincipal.style.display = "inline";
+    pagCarrito.style.display = "none";
     }

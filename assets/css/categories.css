@@ -1,4 +1,4 @@
-nav .menu-slide {
+.menu-slide {
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -10,7 +10,7 @@ nav .menu-slide {
     top: 0%;
 }
 
-nav .menu-slide::-webkit-scrollbar {
+.menu-slide::-webkit-scrollbar {
     display: none;
 }
 
