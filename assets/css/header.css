@@ -1,12 +1,9 @@
-#pagina1 header{
-   margin-left: auto;
-   margin-right: auto;
-}
-
-#pagina1 header {
+#pagPrincipal header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header .logo-img {
