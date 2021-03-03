@@ -98,7 +98,7 @@
     border-color: solid red;
 }
 .footercarrito {
-    position: sticky;
+    position: absolute;
     bottom: 0;
     display: block;
     flex-direction: row;
