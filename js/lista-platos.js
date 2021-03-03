@@ -91,6 +91,8 @@ let arrayPlatos = [
     },
 ];
 
+
+
 function escribePlatos() {
     let escribe = "";
     for(let i = 0; i < arrayPlatos.length; i++) {

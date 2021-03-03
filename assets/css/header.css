@@ -31,9 +31,3 @@ header h3 {
   margin-right: 10%;
   margin-top: 10%;
 }
-
-@media (prefers-color-scheme: dark) {
-  #pagPrincipal header .logo-img {
-    filter: contrast(0);
-  }
-}

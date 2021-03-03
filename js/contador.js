@@ -19,7 +19,12 @@ function addCounterListeners() {
             addItem(event.target)
         });
     }
-};
+}
+
+function reloadListeners(){
+            minusCounterListeners();
+            addCounterListeners();
+}
 
 
 
@@ -28,24 +33,25 @@ function addItem(counterElement) {
     let etiquetaNumero = counterElement.parentNode.children[1];
 
     for (let i = 0; i < arrayPlatos.length; i++) {
-        if (etiquetaNombre.textContent == arrayPlatos[i].nombre) {
+        if (etiquetaNombre.textContent === arrayPlatos[i].nombre) {
             arrayPlatos[i].cantidad++;
             etiquetaNumero.textContent = arrayPlatos[i].cantidad;
+            addtoCarrito(i);
         }
     }
-};
+}
 
 function minusItem(counterElement) {
     let etiquetaNombre = counterElement.parentNode.parentNode.children[1];
     let etiquetaNumero = counterElement.parentNode.children[1];
 
     for (let i = 0; i < arrayPlatos.length; i++) {
-        if (etiquetaNombre.textContent == arrayPlatos[i].nombre) {
+        if (etiquetaNombre.textContent === arrayPlatos[i].nombre) {
             arrayPlatos[i].cantidad--;
             etiquetaNumero.textContent = arrayPlatos[i].cantidad;
         }
     }
-};
+}
 
 
 
