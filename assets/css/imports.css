@@ -3,6 +3,7 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+@import url(MediaQ.css);
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;700;800&display=swap');
 
 body, body *{
@@ -10,3 +11,11 @@ body, body *{
     margin: 0;
     padding: 0;
 } 
+
+@media screen and (min-width: 768px){
+
+body {
+    margin: 0 5% 0 5%;
+}
+
+}

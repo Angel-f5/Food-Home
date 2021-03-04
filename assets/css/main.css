@@ -73,11 +73,15 @@
     border-radius: 10px;
     object-fit: fill;
     margin: 15px 0 10px 0;
+    -webkit-box-shadow: 14px 14px 15px 5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 14px 14px 15px 5px rgba(0,0,0,0.25);
+    box-shadow: 14px 14px 15px 5px rgba(0,0,0,0.25);
 }
 
 .styleInfo {
     display: flex; 
     margin-left: 2%; 
+    
 }
 
 .infoplato {    
@@ -144,3 +148,36 @@
 .main2 h3 {
     margin-left: 10%;
 }
+
+@media screen and (min-width: 768px) {
+
+.styleInfo {
+    margin-top: 5%;
+    height: 170px;
+    justify-content: center;
+   }
+
+.precio{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.infoplato {
+    margin: 15px 0 0 45px;
+    justify-content: center;
+}
+.contador{
+    margin-top: 10px;
+}
+.precio{
+    margin-left: 120px;
+}
+.nombreplato{
+    margin-top: 18px;
+    font-size: 30px;
+}
+
+.descripcion{
+    font-size: 20px;
+}
+    }
