@@ -8,14 +8,14 @@
 
 header .logo-img {
   height: auto;
-  width: 8rem; 
-  margin-left: 2%; 
+  width: 9rem; 
+  margin-left: 16%; 
 }
 
 header h1 {
   padding: 0%;
-  text-align: left;
-  margin-left: 2%; 
+  text-align:center;
+  margin-left: ; 
 }
 header h3 {
   padding: 0;
@@ -36,13 +36,17 @@ header h3 {
 
 header .logo-img {
   margin-top: 5%;
-  margin-left: 32%;
+  margin-left: 2%;
   height: 150px;
   width: auto;
 }
 
 .txtheader{
   margin-bottom: 10px;
-  margin-left: 7.6%;
+  margin-left: 4%;
 }
+header h3 {
+  margin-left: -0.5%;
+}
+
 }
