@@ -95,14 +95,14 @@
 
 .main2 {
     display: flex;
-    height: 561px;
+    flex-direction: column;
   
 }
 .platosselect {
     border-color: solid red;
 }
 .footercarrito {
-    position: sticky;
+    position: fixed;
     bottom: 0;
     display: block;
     flex-direction: row;
@@ -111,6 +111,7 @@
     height: 12rem;
     background-color:  var(--naranja);
     border-radius: 33px 33px 0 0;
+    padding-bottom: 33%;
 }
 
 .listado {
