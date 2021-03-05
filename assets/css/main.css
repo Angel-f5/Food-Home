@@ -19,9 +19,6 @@
     font-size: 1rem;
     font-weight: 900;
     padding: center;
-    -webkit-box-shadow: 1px 1px 3px 4px rgb(0 0 0 / 5%);
-    -moz-box-shadow: 1px 1px 3px 4px rgb(0 0 0 / 5%);
-    box-shadow: 1px 1px 3px 4px rgb(0 0 0 / 5%);
 }
 
 .contador p{
@@ -34,16 +31,18 @@
     border-radius: 15%;
     background-color: var(--gris-claro);
     text-align: center;
-    -webkit-box-shadow: 1px 1px 3px 4px rgb(0 0 0 / 5%);
-    -moz-box-shadow: 1px 1px 3px 4px rgb(0 0 0 / 5%);
-    box-shadow: 1px 1px 3px 4px rgb(0 0 0 / 5%);
+
 }
 
 .contador {
     display: flex;
     flex-direction: row;
     margin-top: 5%;
-    
+    -webkit-box-shadow: 3px 2px 6px 2px rgb(0 0 0 / 5%);
+    -moz-box-shadow: 3px 2px 6px 2px rgb(0 0 0 / 5%);
+    box-shadow: 3px 2px 6px 2px rgb(0 0 0 / 5%);
+    width: 99px;
+    border-radius: 15%;
 }
 
 .descripcion {
@@ -73,9 +72,9 @@
     border-radius: 10px;
     object-fit: fill;
     margin: 15px 0 10px 0;
-    -webkit-box-shadow: 14px 14px 15px 5px rgba(0,0,0,0.25);
-    -moz-box-shadow: 14px 14px 15px 5px rgba(0,0,0,0.25);
-    box-shadow: 14px 14px 15px 5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.25);
+    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.25);
 }
 
 .styleInfo {
