@@ -60,7 +60,7 @@ let arrayPlatos = [
         nombre: "Pizza",
         desc: "Margarita",
         cantidad: 0,
-        categoria: 'fastfood'
+        categoria: 'fast food'
     },
     {
         id:8,
@@ -69,7 +69,7 @@ let arrayPlatos = [
         nombre: "Hamburguesa",
         desc: "Con patatas",
         cantidad: 0,
-        categoria: 'fastfood'
+        categoria: 'fast food'
     },
     {
         id:9,

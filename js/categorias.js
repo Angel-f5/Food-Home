@@ -5,7 +5,7 @@ let listaCategorias = [
       id: 1,
     },
 
-    { nombre: "fastfood",
+    { nombre: "fast food",
       img:"./assets/Logos slide/pizza.svg",
       id: 2,
     },
