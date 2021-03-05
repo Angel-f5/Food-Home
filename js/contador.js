@@ -6,7 +6,7 @@ let arrayElementosMas = document.getElementsByClassName("mas");
 function minusCounterListeners() {
     for (let i = 0; i < arrayElementosMenos.length; i++) {
         arrayElementosMenos[i].addEventListener("click", (event) => {
-            if (arrayPlatos[i].cantidad > 0) {
+            if (arrayPlatos[i].cantidad > 0 || arrayCarrito[i].cantidad > 0) {
                 minusItem(event.target)
             }
         });

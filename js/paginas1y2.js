@@ -7,6 +7,8 @@ document.getElementById("volver").addEventListener("click", atras);
 function siguiente(){
     pagPrincipal.style.display = "none";
     pagCarrito.style.display = "inline";
+    htmlCarrito();
+    reloadListeners();
     }
 
 function atras(){

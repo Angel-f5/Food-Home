@@ -96,7 +96,7 @@ let arrayPlatos = [
 function escribePlatos() {
     let escribe = "";
     for(let i = 0; i < arrayPlatos.length; i++) {
-        escribe+= `<div class="styleInfo ${arrayPlatos[i].categoria}"> 
+        escribe+= `<div class="styleInfo"> 
         <img src="${arrayPlatos[i].img}"> 
         <div class="infoplato">
             <p class="precio">${arrayPlatos[i].precio}</p>
